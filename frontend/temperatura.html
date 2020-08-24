@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+  <title>Atividade</title>  
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row mt-5 ">
+      <div class="col-md-4">
+        <div class="card bg-dark" style="text-align: center;">
+        <h2 class="text-center bg-dark" style="color: white; ">Dados</h2>
+        <div class="form-group mt-5 ">
+          <label for="" class="text-center" style="color: white;">Informe uma cidade</label>
+          <input type="number" class="form-control" id="informecidade" required>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-outline-light" onclick="buscarCidade()">Buscar</button>
+          <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+          <script src="../backend/temperatura.js"></script>
+</div>
+      </div>
+      
+      </div>
+      <div class="col-md-8">
+      <label id="cidade">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+</html>
